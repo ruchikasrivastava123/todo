@@ -19,7 +19,7 @@ function ViewNotes() {
            {console.log(viewnotes)}
            {viewnotes.map((notes,index)=>
     
- index%2==0  ?
+ 
   <>
  <h2 style={{display:'none'}}>{num==4?num=0:num++}</h2> 
  <br/>   
@@ -35,7 +35,7 @@ function ViewNotes() {
            </li>
            <br/>
            </>
-          :null
+       
 
            )}
            </div>
