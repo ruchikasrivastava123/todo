@@ -15,7 +15,9 @@
   width: 25%;
   height: 80vh;
   border-radius: 15px;
-   
+  overflow-y: auto;
+  overflow-x: hidden;
+
 }
 .input
 {
@@ -77,6 +79,9 @@
   list-style: none;
   font-family: Handlee;
   font-size: 22px;
+  word-wrap: break-word;
+  position: relative;
+  left: 15px;
 }
 .listDiv
 {
@@ -89,7 +94,7 @@
 color: red;
 font-size: 16px;
 position: absolute;
-left: 300px;
+left: 250px;
 cursor: pointer;
 }
 .doneCheck
@@ -97,7 +102,7 @@ cursor: pointer;
   color: green;
   font-size: 16px;
   position: absolute;
-  left: 330px;
+  left: 280px;
   cursor: pointer;
 }
 .App
@@ -128,7 +133,7 @@ left: 20rem;
 .listHeading
 {
   font-size: 18px;
- 
+  word-wrap: break-word;
 
 }
 .socialMedia
@@ -189,6 +194,7 @@ font-family:Merinda ;
 {
   font-family: cursive;
   font-size: 16px;
+  word-wrap: break-word;
 }
 body{
   overflow: hidden;
