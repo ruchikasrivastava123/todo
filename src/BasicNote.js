@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import TodoMain from './TodoMain';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import AddNote from './AddNote';
 import ViewNotes from './ViewNotes';
 import {useNote} from './NoteContext'

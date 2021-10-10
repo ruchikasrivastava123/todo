@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import { useContext, useState } from "react/cjs/react.development";
+import { useContext, useState } from "react";
 
 
 const themeContext=createContext(null)
