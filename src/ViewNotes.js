@@ -16,11 +16,12 @@ function ViewNotes() {
     
        <h2 className="headingSavedNote">Your Notes <small style={{position:"relative", top:"-4px"}}>📝</small></h2>
        <div className="viewNotes">
+           {console.log(viewnotes)}
            {viewnotes.map((notes,index)=>
     
- index%2===0  ?
+ index%2==0  ?
   <>
- <h2 style={{display:'none'}}>{num===4?num=0:num++}</h2> 
+ <h2 style={{display:'none'}}>{num==4?num=0:num++}</h2> 
  <br/>   
     <li key={index} style={{backgroundColor:color[num] }} className="listStyle">
            
