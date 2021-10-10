@@ -27,7 +27,7 @@ export function ThemeProvider({children})
     const[btnmode, setBtnMode]=useState("dark")
     const[themee, setThemee]=useState(theme.light)
     const ThemeSet=()=>{
-       if( btnmode=="dark")
+       if( btnmode==="dark")
        {
        
       

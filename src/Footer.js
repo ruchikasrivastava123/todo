@@ -8,9 +8,9 @@ function Footer() {
            
                
                 <footer className="footerDiv">
-                <h4 style={ {position:"relative", top:"72px", color: color,left:"-220px" ,fontSize:"14px"}}>&copy; Ruchika Srivastava | 2021</h4>
-            <div style={{position:"relative", top:"13px", left:"350px"}}>
-                <small style={{  color: footerHeadingColor}}>social media connect</small>
+                <h4 style={ {position:"relative", top:"72px", color: color,left:"-220px" ,fontSize:"14px"} } className="footerHeadingMobile">&copy; Ruchika Srivastava | 2021</h4>
+            <div style={{position:"relative", top:"13px", left:"350px"}} className="socialMobileDiv">
+                <small style={{  color: footerHeadingColor} } className="socialMediaHeading">social media connect</small>
                     <span  className="socialMedia">
                    
       <a href="https://www.linkedin.com/in/ruchika-srivastava-1170a914b/" style={{paddingLeft: "12px", cursor: "pointer", color: color, 

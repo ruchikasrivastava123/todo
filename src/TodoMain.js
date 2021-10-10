@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import './App.css';
-import Footer from './Footer';
+
 import { useTheme } from './ThemeContext';
 import TodoList from './TodoList';
 function TodoMain() {
@@ -27,7 +27,7 @@ function TodoMain() {
            setNotes(oldNotes=>
          {   return oldNotes.filter((note,index)=>
          {
-             return index!=id}
+             return index!==id}
 
          )
          }

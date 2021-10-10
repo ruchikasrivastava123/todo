@@ -5,7 +5,7 @@ import { useState } from 'react/cjs/react.development';
 import AddNote from './AddNote';
 import ViewNotes from './ViewNotes';
 import {useNote} from './NoteContext'
-import { useContext } from 'react';
+
 import Footer from './Footer';
 function BasicNote() {
     const[app, setApp]=useState("todo")
@@ -21,7 +21,7 @@ function BasicNote() {
       
       setApp("view")
      
-     
+     console.log(viewnotes)
      
     
     }
@@ -35,9 +35,9 @@ function BasicNote() {
       </div>
     
     {/* {console.log(viewnotes)} */}
- {app=="todo"&&<TodoMain/>}
-        {app=="add"&&<AddNote display={DisplayNote}/>}
-    {app=="view"&&<ViewNotes />}   
+ {app==="todo"&&<TodoMain/>}
+        {app==="add"&&<AddNote display={DisplayNote}/>}
+    {app==="view"&&<ViewNotes />}   
     <Footer/>
         </div>
     )
