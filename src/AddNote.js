@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import ViewNotes from './ViewNotes'
+
 import {useTheme}  from './ThemeContext'
 function AddNote(props) {
     const[title, setitle]=useState("")
@@ -36,7 +36,7 @@ function AddNote(props) {
                 publishNote()
         }}>publish</button>
             { console.log(viewnote)}
-       {viewnote=="view" && props.display(keepNote) }
+       {viewnote==="view" && props.display(keepNote) }
       
         </div>
     )
