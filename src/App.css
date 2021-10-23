@@ -121,7 +121,7 @@ cursor: pointer;
 {
 position: relative;
 top:16rem;
-left: -3rem;
+left: 1rem;
 }
 .listStyle
 {
@@ -157,7 +157,7 @@ left: -3rem;
 {
   position:relative;
      top:13rem;
-     left:-3rem
+     left:1rem
 }
 .addIcon
 {
