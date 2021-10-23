@@ -121,7 +121,7 @@ cursor: pointer;
 {
 position: relative;
 top:16rem;
-left: 2.5rem;
+left: -3rem;
 }
 .listStyle
 {
@@ -143,9 +143,9 @@ left: 2.5rem;
   display: flex;
    flex-direction: row ;
    color: white;
-   padding-left: 30px; 
+   padding-left: 40px; 
    position: relative;
-  
+  left:-1.5rem
 }
 .socialMediaDiv
 {
@@ -157,7 +157,7 @@ left: 2.5rem;
 {
   position:relative;
      top:13rem;
-     left:1rem
+     left:-3rem
 }
 .addIcon
 {
