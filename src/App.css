@@ -9,10 +9,12 @@
 }
 .mainDiv
 {
-  margin: 18rem 0rem 25rem 0rem;
+ position: absolute;
+ left: 35rem;
+ top: 1rem;
   box-shadow: 5px 5px 25px -5px #374151;
   display: inline-block;
-  width: 25%;
+  width: 45vh;
   height: 80vh;
   border-radius: 15px;
   overflow-y: auto;
@@ -107,7 +109,7 @@ cursor: pointer;
 }
 .App
 {
-  width: 100%;
+  width: 100vh;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -118,8 +120,8 @@ cursor: pointer;
 .buttonDiv
 {
 position: relative;
-top:15rem;
-left: 20rem;
+top:16rem;
+left: 30rem;
 }
 .listStyle
 {
@@ -145,11 +147,17 @@ left: 20rem;
    position: relative;
   
 }
+.socialMediaDiv
+{
+  position:relative;
+   top:0.5rem;
+  left:22rem
+}
 .footerDiv
 {
   position:relative;
-     top:257px;
-     left:-50px
+     top:15rem;
+     left:29rem
 }
 .addIcon
 {
@@ -199,7 +207,7 @@ font-family:Merinda ;
 body{
   overflow: hidden;
 }
-@media all and (max-width: 361px)
+/* @media all and (max-width: 361px)
 {
   .App
   {
@@ -241,4 +249,113 @@ left: 20px
   position: relative;
   left: 20px
 }
+} */
+@media all and ( max-width: 413px)
+{
+  .socialMediaDiv
+  {
+    position:relative;
+     top:0.5rem;
+    left:20rem
+  }
+}
+@media all and ( max-width: 353px)
+{
+  .socialMediaDiv
+  {
+    position:relative;
+     top:0.5rem;
+    left:10rem
+  }
+}
+@media all and ( max-width: 318px)
+{
+  .mainDiv
+{
+ position: absolute;
+ left: 30rem;
+ top: 2rem;
+}
+.buttonDiv
+{
+position: relative;
+top:18rem;
+left: 23rem;
+}
+.footerDiv
+{
+  position:relative;
+     top:18rem;
+     left:22rem
+}
+}
+@media all and ( max-width: 267px)
+{
+  .mainDiv
+  {
+   position: absolute;
+   left: 23rem;
+   top: 2rem;
+  }
+  .buttonDiv
+{
+position: relative;
+top:18rem;
+left: 16rem;
+}
+.footerDiv
+{
+  position:relative;
+     top:18rem;
+     left:15rem
+}
+}
+@media all and ( max-width: 235px)
+{
+  .mainDiv
+  {
+   position: absolute;
+   left: 19rem;
+   top: 2rem;
+  }
+  .buttonDiv
+{
+position: relative;
+top:18rem;
+left: 12rem;
+}
+.footerDiv
+{
+  position:relative;
+     top:18rem;
+     left:11rem
+}
+}
+@media all and ( max-width: 200px)
+{
+  .mainDiv
+  {
+   position: absolute;
+   left: 15rem;
+   top: 2rem;
+  }
+  .buttonDiv
+{
+position: relative;
+top:18rem;
+left: 8rem;
+}
+.footerDiv
+{
+  position:relative;
+     top:18rem;
+     
+     left:7rem
+}
+.socialMediaDiv
+  {
+    position:relative;
+     top:0.5rem;
+    left:5rem
+  }
 }
