@@ -109,7 +109,7 @@ cursor: pointer;
 }
 .App
 {
-  width: 100vh;
+  width: 230vh;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -121,7 +121,7 @@ cursor: pointer;
 {
 position: relative;
 top:16rem;
-left: 30rem;
+left: 2.5rem;
 }
 .listStyle
 {
@@ -143,21 +143,21 @@ left: 30rem;
   display: flex;
    flex-direction: row ;
    color: white;
-   padding-left: 40px; 
+   padding-left: 30px; 
    position: relative;
   
 }
 .socialMediaDiv
 {
-  position:relative;
-   top:0.5rem;
+  position:absolute;
+   top:4rem;
   left:22rem
 }
 .footerDiv
 {
   position:relative;
-     top:15rem;
-     left:29rem
+     top:13rem;
+     left:1rem
 }
 .addIcon
 {
@@ -207,56 +207,14 @@ font-family:Merinda ;
 body{
   overflow: hidden;
 }
-/* @media all and (max-width: 361px)
-{
-  .App
-  {
-    height: 700px;
-  }
-  .mainDiv
-{
-  min-width: 20rem;
-  position: relative;
- left: 1.5rem;
-}
-.buttonDiv
-{
-position: relative;
-top:15rem;
-left: 16.5rem;
-display: flex;
-flex-direction: row;
-}
-.footerDiv
-{
-  position: relative;
-  left: -7rem;
-  min-width: 60%;
-}
-.footerHeadingMobile
-{
- margin-left: 2rem;
-left: 20px
-}
-.socialMobileDiv
-{
- margin-left: -30rem;
- margin-top:4rem;
-}
-.socialMediaHeading
-{
-  margin-left: -35rem;
-  position: relative;
-  left: 20px
-}
-} */
-@media all and ( max-width: 413px)
+
+/* @media all and ( max-width: 413px)
 {
   .socialMediaDiv
   {
     position:relative;
-     top:0.5rem;
-    left:20rem
+     top:3rem;
+    left:0rem
   }
 }
 @media all and ( max-width: 353px)
@@ -358,4 +316,4 @@ left: 8rem;
      top:0.5rem;
     left:5rem
   }
-}
+} */
