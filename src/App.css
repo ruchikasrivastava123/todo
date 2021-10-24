@@ -121,7 +121,7 @@ cursor: pointer;
 {
 position: relative;
 top:16rem;
-left: 1rem;
+left: 3rem;
 }
 .listStyle
 {
@@ -317,3 +317,25 @@ left: 8rem;
     left:5rem
   }
 } */
+
+@media all and ( max-width: 360px)
+{
+  .mainDiv
+  {
+   position: absolute;
+   left: 10rem;
+   top: 2rem;
+  }
+  .buttonDiv
+{
+position: relative;
+top:16rem;
+left: -21rem;
+}
+.footerDiv
+{
+  position:relative;
+     top:13rem;
+     left:-22rem
+}
+}
